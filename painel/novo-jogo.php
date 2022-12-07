@@ -13,7 +13,7 @@ $categorias = mysqli_query($conn, $query_categoria);
 
             <div class="input-container quarter">
                 <label for="name">Nome*</label>
-                <input required name="name" id="name" class="row-input" type="text">
+                <input required name="name" id="name" class="row-input" type="text" onkeyup="transformar_texto_em_maiusculo(this)">
             </div>
 
             <div class="input-container quarter">

@@ -12,7 +12,7 @@
         <div class="row">
             <div class="input-container quarter">
                 <label for="category">Categoria</label>
-                <input value="<?=$categoria['nome']?>" name="category" id="category" class="row-input" type="text">
+                <input value="<?=$categoria['nome']?>" name="category" id="category" class="row-input" type="text"onkeyup="transformar_texto_em_maiusculo(this)">
                 <input value="<?=$id_categoria?>" name="id" type="hidden" >
             </div>
         </div>
